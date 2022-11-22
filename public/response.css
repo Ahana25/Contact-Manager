@@ -1,0 +1,157 @@
+
+
+#id1
+{
+    margin:3px;
+    padding: 17px;
+    /* border: 2px solid orange; */
+}
+
+#idhead
+{
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid green; */
+}
+
+h1{
+    /* border: 2px solid blue; */
+    margin: 10px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    display: inline;
+    color: blue;
+}
+
+#navid
+{
+    display: flex;
+}
+
+#ulnew
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: -15px;
+}
+
+#ulnew li{
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+    list-style-type: none;
+}
+
+#select1
+{
+    align-items: flex-end;
+    justify-content: center;
+    float: right;
+    padding: -3px;
+    margin: -10px;
+    visibility: hidden;
+
+}
+
+#para1
+{
+    margin: 2px;
+    padding: 5px;
+    /* border: 2px solid yellow; */
+}
+
+#ul1
+{
+    display: flex;
+}
+
+#li1
+{
+    align-items: flex-start;
+    justify-content: center;
+    list-style-type: none;
+    margin: 9px;
+}
+#li2
+{
+    align-items: flex-end;
+    justify-content: center;
+    list-style-type: none;
+}
+#p1
+{
+    font-family: cursive;
+    text-align: justify;
+    margin: 20px;
+    color: rgb(209, 54, 176);
+}
+
+#img
+{
+    width: 520px;
+    margin: 34px;
+}
+
+@media (max-width:1160px)
+{
+  
+#ul1
+{
+    display: block;
+}
+h1
+{
+    color: red;
+}
+#para1
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+#p1
+{
+    color: yellow;
+}
+#img
+{
+    width: 95%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media (min-width:453px) and (max-width:900px)
+{
+    #ulnew
+    {
+        margin: 20px;
+    }
+  #idhead
+  {
+      text-align: center;
+  }
+
+}
+
+@media(max-width:452px)
+{
+    #ulnew
+    {
+        visibility: hidden;
+    }
+    #idhead
+    {
+        text-align: center;
+    }
+
+    #select1
+    {
+        visibility: visible;
+        float: left;
+        margin: auto;
+        padding: auto;
+    }
+}
